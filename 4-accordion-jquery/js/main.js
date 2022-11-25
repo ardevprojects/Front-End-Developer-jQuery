@@ -1,11 +1,11 @@
 $(document).ready(function(){
-    $('.rower-item').click(function(){
+    $('.squeezebox-item').click(function(){
         if ($(this).hasClass('open')) {
             $(this).removeClass('open');
-            $(this).find('.rower-content').slideUp();
+            $(this).find('.squeezebox-content').slideUp();
         } else {
             $(this).addClass('open');
-            $(this).find('.rower-content').slideDown();
+            $(this).find('.squeezebox-content').slideDown();
         }
     });
 });

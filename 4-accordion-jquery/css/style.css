@@ -7,7 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.rower {
+.squeezebox {
     background-color: #fefffa;
     max-width: 600px;
     margin: 50px auto;
@@ -16,20 +16,20 @@ body {
     box-shadow: 5px 5px 10px 0px #a4bac1;
 }
 
-.rower-item {
+.squeezebox-item {
     border-bottom: 1px solid #dce7eb;
     padding: 15px 15px 15px 40px;
     cursor: pointer;
 }
 
-.rower-title {
+.squeezebox-title {
     color: #2b3a40;
     text-decoration: none;
     display: inline-block;
     position: relative;
 }
 
-.rower-title::before {
+.squeezebox-title::before {
     content: "+";
     font-size: 20px;
     position: absolute;
@@ -38,10 +38,10 @@ body {
     color: #1e3768;
 }
 
-.rower-content {
+.squeezebox-content {
     display: none;
 }
 
-.open .rower-title::before {
+.open .squeezebox-title::before {
     content: "-";
 }
