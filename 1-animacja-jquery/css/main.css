@@ -1,0 +1,30 @@
+body {
+    padding: 30px;
+}
+
+.btn {
+    background-color: darkolivegreen;
+    color: white;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.mouseenter {
+    background-color: white;
+    color: darkolivegreen;
+}
+
+.rectangle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+.blue {
+    background-color: blue;
+    position: absolute;
+    transition: 5s;
+}
